@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char first, middle, last;
+	int encnum;
+	printf("Input your initial with white space:");
+	scanf(" %c %c %c", &first,&middle,&last);
+    printf("\n\nInput encoding number(1~9):");
+	scanf(" %d", &encnum);
+	printf("\n\nASCII code of your input: %d %d %d",first,middle,last);
+	printf("\n\nEncoded output : %c %c %c \n\n",first-encnum,middle-encnum,last-encnum);
+
+
+		return 0;
+}
+
